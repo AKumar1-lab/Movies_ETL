@@ -69,6 +69,10 @@ In Steps 9-11, check that all three files are converted to a DataFrame. See the 
 19. Set the wiki_movies_df equal to the wiki_file variable.
 20. Check that your wiki_movies_df DataFrame looks like this image:
 
+<img width="600" alt="wiki clean columns" src="https://user-images.githubusercontent.com/85860367/129506095-c5a68a0e-d26b-4097-8c1a-8071cb2980f8.PNG">
+
+<img width="195" alt="Wiki Column labels" src="https://user-images.githubusercontent.com/85860367/129506296-12b8f6b9-e5a1-44cf-a9d9-8947f360d939.PNG">
+
 **Deliverable 3: Extract and Transform the Kaggle data**
 The extraction and transformation of the Kaggle metadata using the ETL function does the following:
 1. The Kaggle metadata is cleaned. 
@@ -84,8 +88,17 @@ The extraction and transformation of the Kaggle metadata using the ETL function 
 9. The empty values in the movies_with_ratings_df DataFrame are filled with “0”. 
 10. The movies_with_ratings_df and the movies_df DataFrames are displayed in the ETL_clean_kaggle_data.ipynb file. 
 
+<img width="600" alt="Merged Wiki and Kaggle" src="https://user-images.githubusercontent.com/85860367/129506775-e0dfcc33-1b72-4d83-93ca-6c059bfdbaac.PNG">
+
+
 **Deliverable 4: Create the Movie Database**
 Use your knowledge of Python, Pandas, the ETL process, code refactoring, and PostgreSQL to add the movies_df DataFrame and MovieLens rating CSV data to a SQL database.
 
+<img width="419" alt="Capture ratings time elapsed" src="https://user-images.githubusercontent.com/85860367/129506954-b0a6282d-ab16-4854-b239-1a54703122cc.PNG">
+
+<img width="482" alt="movies_query" src="https://user-images.githubusercontent.com/85860367/129507556-de269292-2eec-4410-a70b-d2d9bf537a72.png">
+
+<img width="476" alt="ratings_query" src="https://user-images.githubusercontent.com/85860367/129507592-2449078a-e536-48ca-9af2-5663ca6f7dcf.png">
+
 ## Summary
-The exercise was difficult at times, especially transforming this to a clean dataset or reformating the code.  Extracing and Loading was easier done,however the ratings file took a long time to load as it was a larger file with 26,024,289 entries.  The Merged Movie file between Wikipedia and Kaggle, included 6,052 movies.  However considering much of it was automated, ETL tasks far outweighed traditional Excel and VBA methods.  Of course for an untrained professional there are many nuances that still need to be learned in ETL, it will take more than a week to understand ETL or work with people that have experienced this daily.
+The exercise was difficult at times, especially transforming this to a clean dataset or reformating the code.  Extracing and Loading was easier done,however the ratings file took a long time to load as it was a larger file with 26,024,289 entries.  The Merged Movie file between Wikipedia and Kaggle, included 6,051 movies.  However considering much of it was automated, ETL tasks far outweighed traditional Excel and VBA methods.  Of course for an untrained professional there are many nuances that still need to be learned in ETL, it will take more than a week to understand ETL or work with people that have experienced this daily.
